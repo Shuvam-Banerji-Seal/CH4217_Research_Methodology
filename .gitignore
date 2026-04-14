@@ -1,0 +1,19 @@
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Build caches
+.cache/
