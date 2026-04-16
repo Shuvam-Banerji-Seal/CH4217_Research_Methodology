@@ -498,6 +498,169 @@ figcaption {
   }
 }
 
+/* ── Medium mobile (phones in landscape / small tablets) ─────────────────── */
+@media (max-width: 660px) {
+  .site-shell {
+    padding: 10px 10px 40px;
+  }
+
+  .topbar {
+    top: 6px;
+    border-radius: 14px;
+    padding: 10px;
+  }
+
+  .brandline {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .brandline h1 {
+    font-size: 0.95rem;
+  }
+
+  .brandline p {
+    font-size: 0.8rem;
+  }
+
+  .tabs {
+    gap: 6px;
+  }
+
+  .tab-btn {
+    padding: 6px 11px;
+    font-size: 0.82rem;
+  }
+
+  .hero {
+    margin-top: 14px;
+  }
+
+  .hero h2 {
+    font-size: clamp(1.4rem, 5vw, 2rem);
+  }
+
+  .hero-card {
+    min-height: 280px;
+  }
+
+  .panel-title {
+    font-size: 1.4rem;
+  }
+
+  .overview-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bio-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  figure img {
+    height: 180px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 70px 1fr;
+    gap: 8px;
+  }
+
+  .essay-section p {
+    line-height: 1.65;
+  }
+
+  .author-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Small mobile (portrait phones ≤ 480px) ─────────────────────────────── */
+@media (max-width: 480px) {
+  .site-shell {
+    padding: 8px 8px 32px;
+  }
+
+  .topbar {
+    position: static;
+    border-radius: 12px;
+  }
+
+  .tabs {
+    gap: 5px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab-btn {
+    flex-shrink: 0;
+    font-size: 0.78rem;
+    padding: 5px 10px;
+  }
+
+  .hero-copy {
+    padding: 16px;
+  }
+
+  .hero-meta {
+    gap: 6px;
+  }
+
+  .hero-meta span {
+    font-size: 0.78rem;
+    padding: 5px 8px;
+  }
+
+  .tab-panel {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bio-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  figure img {
+    height: 200px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .timeline-item .year {
+    font-size: 0.9rem;
+  }
+
+  .copy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .essay-meta {
+    font-size: 0.82rem;
+  }
+
+  .ref-list {
+    padding-left: 14px;
+  }
+
+  .footer-note {
+    font-size: 0.78rem;
+    padding: 0 4px;
+  }
+}
+
 @media (max-width: 660px) {
   .site-shell {
     padding: 12px 10px 50px;
